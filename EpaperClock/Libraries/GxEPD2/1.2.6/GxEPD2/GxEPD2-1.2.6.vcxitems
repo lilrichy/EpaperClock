@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{3e32f9ee-c48d-4f92-83be-7bfcefd31466}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\GxEPD2_EPD.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_1248.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_154.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_154_D67.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213_B72.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213_B73.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213_flex.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_260.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_270.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_290.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_290_T5.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_371.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_420.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_583.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_750.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_750_T7.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_154c.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_213c.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_270c.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_290c.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_420c.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_583c.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_750c.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_750c_Z08.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\it8951\GxEPD2_it60.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\GxEPD2.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\GxEPD2_3C.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\GxEPD2_BW.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\GxEPD2_EPD.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\GxEPD2_GFX.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps104x212.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps128x250.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps128x296.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps1304x984.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps152x296.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps176x264.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps200x200.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps240x416.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps3c104x212.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps3c128x296.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps3c176x264.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps3c200x200.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps3c400x300.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps3c800x480.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps400x300.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps640x384.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\Bitmaps800x480.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\WS_Bitmaps104x212.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\WS_Bitmaps176x264.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\WS_Bitmaps3c104x212.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\WS_Bitmaps3c128x296.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\WS_Bitmaps3c200x200.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\WS_Bitmaps3c400x300.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bitmaps\WS_Bitmaps800x600.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_1248.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_154.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_154_D67.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213_B72.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213_B73.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_213_flex.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_260.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_270.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_290.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_290_T5.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_371.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_420.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_583.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_750.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd\GxEPD2_750_T7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_154c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_213c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_270c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_290c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_420c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_583c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_750c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\epd3c\GxEPD2_750c_Z08.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\it8951\GxEPD2_it60.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)ConnectingHardware.md" />
+<None Include="$(MSBuildThisFileDirectory)CONTRIBUTING.md" />
+<None Include="$(MSBuildThisFileDirectory)issue_template.md" />
+<None Include="$(MSBuildThisFileDirectory)LICENSE" />
+<None Include="$(MSBuildThisFileDirectory)MyEPDs_UpdateInfos.pdf" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>

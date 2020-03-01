@@ -7,10 +7,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EpaperClock", "EpaperClock\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266WiFi-1.0", "EpaperClock\Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems", "{767F62BC-48F5-4CC6-83A4-FCCD615C27D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GxEPD2-1.2.6", "EpaperClock\Libraries\GxEPD2\1.2.6\GxEPD2\GxEPD2-1.2.6.vcxitems", "{3E32F9EE-C48D-4F92-83BE-7BFCEFD31466}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_GFX_Library-1.7.5", "EpaperClock\Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems", "{DEC500B2-4157-42A5-B41A-8FC8D3D002DD}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EpaperClock\Libraries\GxEPD2\1.2.6\GxEPD2\GxEPD2-1.2.6.vcxitems*{3e32f9ee-c48d-4f92-83be-7bfcefd31466}*SharedItemsImports = 9
 		EpaperClock\Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{767f62bc-48f5-4cc6-83a4-fccd615c27d4}*SharedItemsImports = 9
+		EpaperClock\Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		EpaperClock\Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		EpaperClock\Libraries\GxEPD2\1.2.6\GxEPD2\GxEPD2-1.2.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		EpaperClock\Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems*{dec500b2-4157-42a5-b41a-8fc8d3d002dd}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
